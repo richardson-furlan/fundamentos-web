@@ -58,3 +58,22 @@ h1 {
 
 }
 /*Estilos da página contato,html*/
+
+form {
+    width: fit-content; /* ou qualquer largura desejada */
+    margin: 0 auto; /* Define margens automáticas para centralizar */
+       
+}
+
+label {
+    display: block; /* Coloca cada label em uma nova linha */
+    margin-bottom: 8px; /* Espaço entre cada label e o campo de entrada */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box; /* Garante que a largura inclui padding e borda */
+}
